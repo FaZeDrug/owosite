@@ -1,0 +1,146 @@
+/* General styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Lato', 'Helvetica', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #202122;
+}
+
+/* Header styles */
+.vector-header-container {
+    background-color: #ffffff;
+    border-bottom: 1px solid #a2a9b1;
+    padding: 0.5em 0;
+}
+
+.vector-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main content styles */
+.mw-content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1em;
+    border: 1px solid #a2a9b1;
+    border-top: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 0.2em;
+}
+
+h1 {
+    font-size: 28px;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+}
+
+/* New style for first heading */
+.firstHeading {
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+    border-bottom: 1px solid #a2a9b1;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-bottom: 0.25em;
+    padding: 0;
+    color: #202122;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+/* Links */
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table of Contents */
+#vector-toc {
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+.vector-toc-list-item {
+    list-style-type: none;
+}
+
+/* Search box */
+.vector-search-box-input {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #a2a9b1;
+}
+
+/* Toolbar */
+.vector-page-toolbar {
+    border-bottom: 1px solid #a2a9b1;
+    padding: 0.5em 0;
+}
+
+/* Footer */
+.mw-footer {
+    border-top: 1px solid #a2a9b1;
+    padding-top: 1em;
+    font-size: 0.9em;
+}
+
+/* Add more styles as needed */
+
+.vector-header-site-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.mw-wiki-logo {
+    background-image: url(path/to/wikipedia-logo.svg);
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.vector-header-site-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-right: 24px;
+}
+
+.vector-user-links {
+    margin-right: 12px;
+}
+
+.mw-footer {
+    margin-top: 2em;
+    padding: 1em;
+    border-top: 1px solid #a2a9b1;
+}
+
+#footer-info, #footer-places {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-info li, #footer-places li {
+    margin: 0.5em 0;
+}

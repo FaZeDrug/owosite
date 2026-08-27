@@ -1,0 +1,23 @@
+{
+  "appleProducts" : [
+
+  ],
+  "evidence" : [
+
+  ],
+  "insights" : [
+
+  ],
+  "projectName" : "owosite",
+  "releases" : [
+
+  ],
+  "schemaVersion" : 1,
+  "stageProgress" : {
+    "build" : "notStarted",
+    "decide" : "notStarted",
+    "learn" : "notStarted",
+    "setup" : "notStarted",
+    "ship" : "notStarted"
+  }
+}
